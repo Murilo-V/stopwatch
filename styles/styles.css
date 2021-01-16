@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 45pt !important;
+  }
+  .stopwatch-buttons button {
+    margin: 6px !important;
+    padding: 10px !important;
+    font-size: 12pt !important;
+    border-radius: 6px !important;
+  }
+}
+
+.stopwatch-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #014AF5;
+  color: #7CF70C;
+}
+
+.stopwatch-container h1 {
+  font-size: 30pt;
+  text-decoration: underline;
+  position: fixed;
+  top: 0;
+}
+
+.stopwatch-container p {
+  position: fixed;
+  top: 60px;
+}
+
+.stopwatch-container p a {
+  color: #7CF70C;
+}
+
+.stopwatch-container h2 {
+  font-size: 60pt;
+  text-shadow: 0px 12px 10px rgba(0, 0, 0, 0.24);
+}
+
+.stopwatch-container .stopwatch-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stopwatch-container .stopwatch-buttons button {
+  margin: 12px;
+  padding: 12px;
+  font-size: 18pt;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.24);
+}
+
+.stopwatch-container .stopwatch-buttons #stopwatch-start-stop {
+  background-color: #0BD428;
+  color: #014AF5;
+  font-weight: 500;
+}
+
+.stopwatch-container .stopwatch-buttons #stopwatch-reset {
+  background-color: #014AF5;
+  color: #0BD428;
+  border: 2px solid #0BD428;
+  font-weight: 500;
+}
+/*# sourceMappingURL=styles.css.map */
